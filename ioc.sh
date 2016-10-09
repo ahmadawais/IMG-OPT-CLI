@@ -39,7 +39,7 @@ echo "—"
 
 echo "${gb}${bf}  ℹ️  Pre IMG OPT CLI Checklist: ${r}"
 echo "${wb}${bf}  ␥  1. Have you installed jpegoptim? Install it first${r} (sudo apt-get install jpegoptim)?"
-echo "${wb}${bf}  ␥  1. Have you installed OptiPNG? Install it first${r} (sudo apt-get install optipng)?"
+echo "${wb}${bf}  ␥  2. Have you installed OptiPNG? Install it first${r} (sudo apt-get install optipng)?"
 echo "${blb}${bf}  INFO: All the above steps above are required for IMG OPT CLI to work. ${r}"
 
 # Optimize JPG Images.

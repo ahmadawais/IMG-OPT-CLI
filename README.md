@@ -1,23 +1,26 @@
-# IMG-OPT-CLI (WIP) 
-Image Optimization CLI for NGINX or Easy Engine based self hosted WordPress websites. 
+# IMG OPT CLI (`IOC`)
+Image Optimization CLI for NGINX or Easy Engine based self hosted WordPress websites. Also known as `IOC`.
 
 ## Pre Requisite
-You need to install `jpegoptim` and `OptiPNG` for IMG-OPT-CLI to work.
+You need to install `jpegoptim` and `OptiPNG` for `IOC` to work.
 -  `jpegoptim` Install it by running `sudo apt-get install jpegoptim`
 -  `OptiPNG` Install it by running `sudo apt-get install optipng`
 
 ## Install
-Then install IMG-OPT-CLI by running the following command.
+Then install `IOC` by running the following command.
+```bash
+sudo wget -qO ioc https://git.io/vPBEJ && sudo chmod +x ./ioc && sudo install ./ioc /usr/local/bin/ioc
+```
 
 ## Run
-Run IMG-OPT-CLI by running the following command.
+Run `IOC` by running the following command.
 
 ```bash
 imgoptcli
 ```
 
 ## Remove & Update
-To update IMG-OPT-CLI you need to remove it first and install it again (which will automatically install the latest version)
+To update `IOC` you need to remove it first and install it again (which will automatically install the latest version)
 
 To remove run 
 ```bash

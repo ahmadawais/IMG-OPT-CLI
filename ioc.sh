@@ -86,11 +86,10 @@ function imgoptcli() {
   	read -r LEVEL
 	find /var/www/"$SITE"/htdocs/wp-content/uploads/ -type f -iname "*.png" -print0 | xargs -I {} -0 optipng -o"$LEVEL" -out -preserve -clobber "{}"
 fi
-}
 
 echo "——————————————————————————————————"
 echo "✔︎✔︎✔︎ DONE! ✔︎✔︎✔︎"
 echo "——————————————————————————————————"
-
+}
 # Run imgoptcli.
 imgoptcli

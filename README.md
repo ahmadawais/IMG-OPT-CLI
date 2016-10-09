@@ -9,7 +9,7 @@ You need to install `jpegoptim` and `OptiPNG` for `IOC` to work.
 ## Install
 Then install `IOC` by running the following command.
 ```bash
-sudo wget -qO ioc https://git.io/vPBEJ && sudo chmod +x ./ioc && sudo install ./ioc /usr/local/bin/ioc
+sudo wget -qO ioc https://git.io/vPBEG && sudo chmod +x ./ioc && sudo install ./ioc /usr/local/bin/ioc
 ```
 
 ## Run

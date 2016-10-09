@@ -16,7 +16,7 @@ sudo wget -qO ioc https://git.io/vPBEG && sudo chmod +x ./ioc && sudo install ./
 Run `IOC` by running the following command.
 
 ```bash
-imgoptcli
+ioc
 ```
 
 ## Remove & Update
@@ -24,7 +24,7 @@ To update `IOC` you need to remove it first and install it again (which will aut
 
 To remove run 
 ```bash
-rm -f $(which imgoptcli)
+rm -f $(which ioc)
 ```
 
 And the finally reinstall it.

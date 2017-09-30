@@ -56,7 +56,7 @@ function imgoptcli() {
   read -r SITE
 
   echo "——————————————————————————————————"
-  echo "👉  Do you want to optimize JPG images? [ y | n ]  "
+  echo "👉  Do you want to optimize JPG images? [ y | n ]"
   echo "——————————————————————————————————"
   read -r IS_OPT_JPG
   if [[ "Y" == "$IS_OPT_JPG" || "y" == "$IS_OPT_JPG" ]]; then
@@ -73,7 +73,7 @@ function imgoptcli() {
   fi
 
   echo "——————————————————————————————————"
-  echo "👉  Do you want to optimize PNG images? [ y | n ]  "
+  echo "👉  Do you want to optimize PNG images? [ y | n ]"
   echo "——————————————————————————————————"
   read -r IS_OPT_PNG
   if [[ "Y" == "$IS_OPT_PNG" || "y" == "$IS_OPT_PNG" ]]; then

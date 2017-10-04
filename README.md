@@ -27,7 +27,7 @@ To remove run
 rm -f $(which ioc)
 ```
 
-And the finally reinstall it.
+And then finally reinstall it.
 
 
 ## Changelog
